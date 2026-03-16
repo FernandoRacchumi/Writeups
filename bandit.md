@@ -11,7 +11,7 @@ ssh bandit0@bandit.labs.overthewire.org -p 2220
 ls
 cat readme
 ```
-Password: `ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If`
+Flag: `ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If`
 ---
 ## Level 1 → 2
 The file's name is `-`, so we have to specify the exact route:
