@@ -11,7 +11,8 @@ TCP/IP
 Unix
 
 Now we turn on our firt machine and get the IP: 10.64.152.144. Then we proceed doing port scanning:
-´nmap -T4 -p- 10.64.152.144´
+
+'nmap -T4 -p- 10.64.152.144'
 ### Conduct an nmap scan of your choosing, How many ports are open?
 3
 ### What ports is SMB running on? Provide the ports in ascending order.
