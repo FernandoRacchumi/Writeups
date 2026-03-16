@@ -12,11 +12,12 @@ Unix
 
 Now we turn on our firt machine and get the IP: 10.64.152.144. 
 Then we proceed doing port scanning:
-		```nmap -T4 -p- 10.64.152.144`
-			`PORT      STATE    SERVICE
+
+		nmap -T4 -p- 10.64.152.144`
+			PORT      STATE    SERVICE
 			22/tcp    open     ssh
 			139/tcp   open     netbios-ssn
-			445/tcp   open     microsoft-ds```
+			445/tcp   open     microsoft-ds
 ### Conduct an nmap scan of your choosing, How many ports are open?
 3
 ### What ports is SMB running on? Provide the ports in ascending order.
