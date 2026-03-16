@@ -10,6 +10,7 @@ TCP/IP
 ### What systems does Samba run on?
 Unix
 
+
 Now we turn on our firt machine and get the IP: 10.64.152.144. Then we proceed doing port scanning:
 
 `nmap -T4 -p- 10.64.152.144`
