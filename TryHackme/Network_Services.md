@@ -11,7 +11,7 @@ TCP/IP
 Unix
 
 Now we turn on our firt machine and get the IP: 10.64.152.144. Then we proceed doing port scanning:
-'nmap -T4 -p- 10.64.152.144'
+´nmap -T4 -p- 10.64.152.144´
 ### Conduct an nmap scan of your choosing, How many ports are open?
 3
 ### What ports is SMB running on? Provide the ports in ascending order.
@@ -20,7 +20,7 @@ Now we turn on our firt machine and get the IP: 10.64.152.144. Then we proceed d
 WORKGROUP
 ### What comes up as the name of the machine?    
 POLOSMB
-#### What operating system version is running?    
+### What operating system version is running?    
 6.1
 ### What share sticks out as something we might want to investigate?    
 profiles
