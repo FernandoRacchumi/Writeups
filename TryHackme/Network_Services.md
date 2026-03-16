@@ -1,6 +1,6 @@
 # WriteUp de Network Service
+------------------
 ## SMB
-
 ### What does SMB stand for?
 Server Message Block
 ### What type of protocol is SMB? 
@@ -72,7 +72,7 @@ So we do:
 	cat smb.txt
 ### We get the flag: 
 `THM{smb_is_fun_eh?}`
-
+-----------------
 ## Telnet
 ### How would you connect to a Telnet server with the IP 10.10.10.3 on port 23?
 telnet 10.10.10.3 23
