@@ -1,30 +1,30 @@
-#WriteUp de Network Service
-##SMB
+# WriteUp de Network Service
+## SMB
 
-###What does SMB stand for?
+### What does SMB stand for?
 Server Message Block
-###What type of protocol is SMB? 
+### What type of protocol is SMB? 
 response-request
-###What protocol suite do clients use to connect to the server?
+### What protocol suite do clients use to connect to the server?
 TCP/IP
-###What systems does Samba run on?
+### What systems does Samba run on?
 Unix
 
 Now we turn on our firt machine and get the IP: 10.64.152.144. Then we proceed doing port scanning:
 'nmap -T4 -p- 10.64.152.144'
-###Conduct an nmap scan of your choosing, How many ports are open?
+### Conduct an nmap scan of your choosing, How many ports are open?
 3
-###What ports is SMB running on? Provide the ports in ascending order.
+### What ports is SMB running on? Provide the ports in ascending order.
 139/445
-###Let's get started with Enum4Linux, conduct a full basic enumeration. For starters, what is the workgroup name?    
+### Let's get started with Enum4Linux, conduct a full basic enumeration. For starters, what is the workgroup name?    
 WORKGROUP
-###What comes up as the name of the machine?    
+### What comes up as the name of the machine?    
 POLOSMB
-###What operating system version is running?    
+#### What operating system version is running?    
 6.1
-###What share sticks out as something we might want to investigate?    
+### What share sticks out as something we might want to investigate?    
 profiles
-###What would be the correct syntax to access an SMB share called "secret" as user "suit" on a machine with the IP 10.10.10.2 on the default port? 
+### What would be the correct syntax to access an SMB share called "secret" as user "suit" on a machine with the IP 10.10.10.2 on the default port? 
 smbclient //10.10.10.2/secret -U suit -p 445
 
 
