@@ -12,11 +12,11 @@ Unix
 
 Now we turn on our firt machine and get the IP: 10.64.152.144. 
 Then we proceed doing port scanning:
-	`nmap -T4 -p- 10.64.152.144
-		PORT      STATE    SERVICE
-		22/tcp    open     ssh
-		139/tcp   open     netbios-ssn
-		445/tcp   open     microsoft-ds`
+		```nmap -T4 -p- 10.64.152.144`
+			`PORT      STATE    SERVICE
+			22/tcp    open     ssh
+			139/tcp   open     netbios-ssn
+			445/tcp   open     microsoft-ds```
 ### Conduct an nmap scan of your choosing, How many ports are open?
 3
 ### What ports is SMB running on? Provide the ports in ascending order.
@@ -49,7 +49,7 @@ workgroup name: WORKGROUP
 name: POLOSMB
 
 	POLOSMB        Wk Sv PrQ Unx NT SNT POLOSMB server (Samba, Ubuntu)                                                   
-        platform_id     :       500
+		platform_id     :       500
         os version      :       6.1
         server type     :       0x809a03
 Debemos investigar en la unidad compartida: profiles
