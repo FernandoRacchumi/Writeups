@@ -109,7 +109,7 @@ SKIDY'S BACKDOOR.
 	ls 
 	cat flag.txt
 ### We get the flag: THM{y0u_g0t_th3_t3ln3t_fl4g}
-
+----------
 ## FTP
 ### As always, we began with port scanning:
 `nmap -T5 -p- 10.67.156.191`
