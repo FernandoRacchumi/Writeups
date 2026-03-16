@@ -69,7 +69,7 @@ The flag is in `data.txt` next to the word `millionth`.
 cat data.txt | grep "millionth"
 ```
 >  `cat data.txt grep "millionth"` bad idea, you have to use the pipe `|`.
-*Password: `dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc`*
+**Password: `dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc`**
 ---
 ## Level 8 → 9
 ```bash
